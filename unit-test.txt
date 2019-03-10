@@ -1,0 +1,37 @@
+Unit - Testing
+
+Unit testing is where we test our code at a unit or class level. Usually test the public methods for both positive and Negative scanarios.  
+
+Unit Testing - Mock out the dependecy layers. Each layer is unit tested on its own
+
+1. When we write unit tests, we catch bugs during dependencies. 
+2. Instant feedback. As everything is mocked.
+3. Regression Suite - Making sure no code breaks as a result of newer features and code updates.
+
+
+-----------------------------------------------
+
+Testing Framework - 
+
+Every unit testing framework gives us 3 things - 
+1. An easy API to write unit tests
+2. An easy way to assert for results.
+3. A way to run and report results.
+
+JUnit 3 -> junit.framework.TestCase
+JUnit 4 -> Annotations
+            @Test -> Each Test Case
+            @Before -> Setup before each test case execution
+            @After -> Method executed after each test case execution
+            @BeforeClass -> Executes once before the full test class
+            @Ignore -> Those tests are ignored.
+
+            Provides easy to use static methods
+            1. assertNotNull
+            2. assertEquals
+            3. assertSame
+
+            Provides BlockJUnit4ClassRunner.class to execute Test Suite. Can be extended
+
+
+
