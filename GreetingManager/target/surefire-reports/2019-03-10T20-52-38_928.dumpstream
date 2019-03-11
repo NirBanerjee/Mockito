@@ -1,0 +1,12 @@
+# Created at 2019-03-10T20:52:41.298
+Mar 10, 2019 8:52:41 PM org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+
+# Created at 2019-03-10T20:52:41.299
+WARNING: Ignoring test class using JUnitPlatform runner: com.banerjee.greetings.GreetingsImplTest
+
+# Created at 2019-03-10T20:52:41.338
+Mar 10, 2019 8:52:41 PM org.junit.vintage.engine.discovery.DefensiveAllDefaultPossibilitiesBuilder$DefensiveAnnotatedBuilder buildRunner
+
+# Created at 2019-03-10T20:52:41.338
+WARNING: Ignoring test class using JUnitPlatform runner: com.banerjee.greetings.GreetingsImplTest
+
