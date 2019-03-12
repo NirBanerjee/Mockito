@@ -9,7 +9,7 @@ import java.sql.SQLException;
 
 public class OrderBOImpl implements OrderBO {
 
-    OrderDAO orderDAO;
+    private OrderDAO orderDAO;
 
     @Override
     public boolean placeOrder(Order order) throws BOException {
@@ -19,7 +19,7 @@ public class OrderBOImpl implements OrderBO {
                 return false;
             }
         }   catch (SQLException ex) {
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new BOException(ex);
         }
         return true;
@@ -35,7 +35,7 @@ public class OrderBOImpl implements OrderBO {
                 return false;
             }
         }   catch (SQLException ex) {
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new BOException(ex);
         }
         return true;
@@ -49,9 +49,17 @@ public class OrderBOImpl implements OrderBO {
                 return false;
             }
         }   catch (SQLException ex) {
-            ex.printStackTrace();
+            //ex.printStackTrace();
             throw new BOException(ex);
         }
         return true;
+    }
+
+    public OrderDAO getOrderDAO() {
+        return orderDAO;
+    }
+
+    public void setOrderDAO(OrderDAO orderDAO) {
+        this.orderDAO = orderDAO;
     }
 }
